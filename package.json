@@ -1,0 +1,22 @@
+{
+    "name": "m",
+    "displayName": "m",
+    "description": "m",
+    "version": "0.0.1",
+    "publisher": "me",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "m",
+                "uiTheme": "vs",
+                "path": "./themes/m-color-theme.json"
+            }
+        ]
+    }
+}

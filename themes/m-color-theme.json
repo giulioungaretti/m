@@ -1,0 +1,47 @@
+{
+	"name": "m",
+	"type": "light",
+	"colors": {
+		"editor.background": "#fafafa",
+		"editor.foreground": "#222",
+		"activityBarBadge.background": "#007acc",
+		"sideBar.background": "#fafafa",
+		"titleBar.activeBackground": "#fafafa",
+		"titleBar.inactiveBackground": "#fafafa",
+		"sideBarSectionHeader.background": "#fafafa",
+		"activityBar.background": "#fafafa",
+		"activityBar.foreground": "#C7CCD1",
+		"tab.activeBackground": "#fafafa",
+		"tab.inactiveBackground": "#fafafa",
+		"tab.border": "#fafafa",
+		"editorGroupHeader.tabsBackground": "#fafafa",
+		"menu.background": "#fafafa",
+		"panel.background": "#fafafa",
+		"panel.border": "#fafafa",
+		"scrollbarSlider.background": "#C7CCD1",
+		"statusBar.background": "#fafafa",
+		"statusBarItem.remoteBackground": "#fafafa",
+		"statusBar.foreground": "#222",
+		"statusBar.debuggingBackground": "#C795AE",
+		"statusBar.debuggingForeground": "#222",
+		"statusBarItem.remoteForeground": "#222"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#BD689B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#AE95C7",
+				"fontStyle": ""
+			}
+		}
+	]
+}
