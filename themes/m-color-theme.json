@@ -1,47 +1,101 @@
 {
-	"name": "m",
-	"type": "light",
-	"colors": {
-		"editor.background": "#fafafa",
-		"editor.foreground": "#222",
-		"activityBarBadge.background": "#007acc",
-		"sideBar.background": "#fafafa",
-		"titleBar.activeBackground": "#fafafa",
-		"titleBar.inactiveBackground": "#fafafa",
-		"sideBarSectionHeader.background": "#fafafa",
-		"activityBar.background": "#fafafa",
-		"activityBar.foreground": "#C7CCD1",
-		"tab.activeBackground": "#fafafa",
-		"tab.inactiveBackground": "#fafafa",
-		"tab.border": "#fafafa",
-		"editorGroupHeader.tabsBackground": "#fafafa",
-		"menu.background": "#fafafa",
-		"panel.background": "#fafafa",
-		"panel.border": "#fafafa",
-		"scrollbarSlider.background": "#C7CCD1",
-		"statusBar.background": "#fafafa",
-		"statusBarItem.remoteBackground": "#fafafa",
-		"statusBar.foreground": "#222",
-		"statusBar.debuggingBackground": "#C795AE",
-		"statusBar.debuggingForeground": "#222",
-		"statusBarItem.remoteForeground": "#222"
-	},
-	"tokenColors": [
-		{
-			"name": "Comment",
-			"scope": "comment",
-			"settings": {
-				"foreground": "#BD689B",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "String",
-			"scope": "string",
-			"settings": {
-				"foreground": "#AE95C7",
-				"fontStyle": ""
-			}
-		}
-	]
+    "name": "m",
+    "type": "light",
+    "colors": {
+        /* error squiggles */
+        // "foreground": "#db029a",
+        "editorError.foreground": "#ff4870",
+        /* warning squggles */
+        "editorWarning.foreground": "#ffc400",
+        /* info squiggles */
+        "editorInfo.foreground": "#35ffab",
+        "editor.background": "#fafafa",
+        "activityBarBadge.background": "#007acc",
+        "sideBar.background": "#fafafa",
+        "titleBar.activeBackground": "#fafafa",
+        "titleBar.inactiveBackground": "#fafafa",
+        "sideBarSectionHeader.background": "#fafafa",
+        "activityBar.background": "#fafafa",
+        "activityBar.foreground": "#C7CCD1",
+        "tab.activeBackground": "#fafafa",
+        "tab.inactiveBackground": "#fafafa",
+        "tab.border": "#fafafa",
+        "editorGroupHeader.tabsBackground": "#fafafa",
+        "menu.background": "#fafafa",
+        "panel.background": "#fafafa",
+        "panel.border": "#fafafa",
+        "scrollbarSlider.background": "#C7CCD1",
+        "statusBar.background": "#fafafa",
+        "statusBarItem.remoteBackground": "#fafafa",
+        "statusBar.foreground": "#222",
+        "statusBar.debuggingBackground": "#C795AE",
+        "statusBar.debuggingForeground": "#222",
+        "statusBarItem.remoteForeground": "#222"
+    },
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+                "foreground": "#838383",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "settings": {
+                "foreground": "#838383",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "interpolation",
+            "scope": "meta.fstring",
+            "settings": {
+                "foreground": "#575757",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "interpolation",
+            "scope": "meta.interpolation",
+            "settings": {
+                "foreground": "#575757",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "format",
+            "scope": "keyword.format",
+            "settings": {
+                "foreground": "#575757",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "gitplus",
+            "scope": "markup.inserted",
+            "settings": {
+                "foreground": "#00f08c",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "gitminus",
+            "scope": "markup.deleted",
+            "settings": {
+                "foreground": "#ff4870",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "gitchange",
+            "scope": "markup.changed",
+            "settings": {
+                "foreground": "#ffc400",
+                "fontStyle": "bold"
+            }
+        },
+    ]
 }
