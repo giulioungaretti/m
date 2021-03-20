@@ -10,6 +10,8 @@
         /* info squiggles */
         "editorInfo.foreground": "#35ffab",
         "editor.background": "#fafafa",
+        "editorLineNumber.foreground": "#C7CCD1",
+        "editorLineNumber.activeForeground": "#000",
         "activityBarBadge.background": "#007acc",
         "sideBar.background": "#fafafa",
         "titleBar.activeBackground": "#fafafa",
@@ -28,8 +30,10 @@
         "statusBar.background": "#fafafa",
         "statusBarItem.remoteBackground": "#fafafa",
         "statusBar.foreground": "#222",
-        "statusBar.debuggingBackground": "#C795AE",
-        "statusBar.debuggingForeground": "#222",
+        "statusBar.noFolderBackground": "#fafafa",
+        "statusBar.noFolderForeground": "#C7CCD1",
+        "statusBar.debuggingBackground": "#fafafa",
+        "statusBar.debuggingForeground": "#C795AE",
         "statusBarItem.remoteForeground": "#222"
     },
     "tokenColors": [
