@@ -3,7 +3,8 @@
     "displayName": "m",
     "description": "m",
     "version": "0.0.3",
-    "publisher": "me",
+    "publisher": "GiulioUngaretti",
+    "repository": {"url": "https://github.com/giulioungaretti/m", "type": "github"},
     "engines": {
         "vscode": "^1.41.0"
     },
