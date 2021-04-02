@@ -2,7 +2,7 @@
     "name": "m",
     "displayName": "m",
     "description": "m",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "publisher": "GiulioUngaretti",
     "repository": {"url": "https://github.com/giulioungaretti/m", "type": "github"},
     "engines": {

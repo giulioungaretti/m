@@ -59,7 +59,6 @@
             "scope": "keyword.format,meta.template.expression.ts, meta.interpolation, meta.fstring",
             "settings": {
                 "foreground": "#000",
-                "fontStyle": "bold"
             }
         },
         {
